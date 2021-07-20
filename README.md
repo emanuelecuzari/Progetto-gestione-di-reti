@@ -4,9 +4,9 @@ Progetto finale di Gestione di Reti a.a. 2020/2021
 * Its aim is to find the outlier ports for a given switch, by using the transimitted amount of bits in a certain period of time.
 
 ### Pyhton Dependencies
-*[easysnmp](https://pypi.org/project/easysnmp/)
-*[plotly](https://plotly.com/python/getting-started/)
-
+* [easysnmp](https://pypi.org/project/easysnmp/)
+* [plotly](https://plotly.com/python/getting-started/)
+ 
 ### Requirements
 * Python 3.x
 * [SNMP](https://martinsblog.dk/linux-how-do-i-enable-snmp-on-ubuntu/) -> NOTE: this link helps you intall snmp on Ubuntu, for any other OS you must look for the correct guide
