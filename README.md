@@ -4,8 +4,8 @@ Progetto finale di Gestione di Reti a.a. 2020/2021
 * Its aim is to find the outlier ports for a given switch, by using the transimitted amount of bits in a certain period of time.
 
 ### Pyhton Dependencies
-*[easysnmp](https://pypi.org/project/easysnmp/)
-*[plotly](https://plotly.com/python/getting-started/)
+* [easysnmp](https://pypi.org/project/easysnmp/)
+* [plotly](https://plotly.com/python/getting-started/)
 
 (The libraries below are used but are part of the Python Standard Libraries, so there is no need to install them)
 * time
