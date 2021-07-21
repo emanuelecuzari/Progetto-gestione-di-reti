@@ -26,7 +26,7 @@ to set the MIB environment variables. If you don't do this, the program will ret
 
 To run the program you must be in the correct path (the one where the file .py has been saved) and then use:
 ```bash
-python3 outlier.py host_ip community version time [threshold]
+python3 outlier.py host_ip community version time_ [threshold]
 ```
 The parameter 'threshold' can be omitted: in this case the program sets it to +inf.
 
@@ -42,7 +42,7 @@ The program uses the host's ip the user provide to poll its active interfaces wi
 
 Subsequently, the program proceed to evaluate the usage of each port by performing two snmp get (for each port) at a distance of a certain amount of seconds from each other (this is the parameter 'time', whose value is decided by the user). Both snmp gets return the ifOutOctets MIB, which gives the number of transmitted octets (groups of eight bits) from a certain interface; the mean usage of a port is calculated with this formula:
 ```bash 
-(outOctets(2) - outOctets(1)) / time 
+(outOctets(2) - outOctets(1)) / time_ 
 ```
 
 During this evaluation, to avoid any type of error, the sysUpTime is checked: this check ensures the data used by the program are reliable and no switch's reinitialisation has occured.
