@@ -22,7 +22,7 @@ Before starting the program you must type
 ```bash
 export MIBS=ALL
 ```
-to set the MIB environment variables. If you don't do this, the program will retunr an error.
+to set the MIB environment variables. If you don't do this, the program will return an error.
 
 To run the program you must be in the correct path (the one where the file .py has been saved) and then use:
 ```bash
